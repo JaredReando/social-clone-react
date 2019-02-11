@@ -1,0 +1,119 @@
+body {
+  margin: 40px;
+  font-size: 12px;
+}
+
+.userDashboard {
+    display: grid;
+    grid-gap: 10px;
+		grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+		background-color: #fff;
+		color: #444;
+	}
+
+.dashboardHeader {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.dashboardBody {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#userProfile {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 3fr 1fr;
+}
+
+#messageBox {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 10px;
+}
+
+#messageBox div {
+  border: 1px solid white;
+}
+
+p {
+  margin: 0;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  border: 1px solid black;
+}
+
+.message {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr, min-content;
+  border: 1px solid black;
+
+}
+
+/* #image {
+  grid-column: 1/2;
+  grid-row: 1;
+  border: 1px solid white;
+} */
+
+#name {
+  border: 1px solid white;
+}
+
+#userTweet {
+  grid-column: 1/4;
+  grid-row: 2;
+  border: 1px solid white;
+}
+
+#userTweet button {
+  display: inline;
+}
+
+#userBio {
+  grid-column: 1/4;
+  grid-row: 3;
+  border: 1px solid white;
+}
+
+
+
+#navBarMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0px;
+}
+
+#nav-left {
+  justify-self: flex-start;
+}
+
+button {
+  width: auto;
+  border-radius: 0px;
+}
+#nav-right {
+  justify-self: flex-end;
+}
+
+
+
+.box {
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+  border: 0;
+}
