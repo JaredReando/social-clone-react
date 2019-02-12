@@ -1,11 +1,17 @@
-import React from "react";
-import NavBar from "./NavBar";
-import DashboardBody from "./DashboardBody";
+import React from 'react';
+import NavBar from './NavBar';
+import DashboardBody from './DashboardBody';
 
 function App(){
+  const appWrapper = {
+    maxWidth: '70%',
+    marginRight: 'auto',
+    marginLeft: 'auto'
+  };
 
+  
   return (
-    <div>
+    <div style={appWrapper}>
       <NavBar/>
       <DashboardBody/>
     </div>

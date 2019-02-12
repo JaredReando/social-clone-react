@@ -1,26 +1,30 @@
-import React from "react";
+import React from 'react';
 
 function NavBar() {
   const navStyles = {
-    display: "grid",
-    gridTemplateColumns: "1fr 1fr",
-    fontSize: "0px"
-  }
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr'
+  };
 
   const navLeft = {
-      justifySelf: "flex-start"
-  }
+    justifySelf: 'flex-start'
+  };
 
   const navRight = {
-    justifySelf: "flex-end"
-  }
+    justifySelf: 'flex-end'
+  };
+  
+  const navButton = {
+    border: 'none',
+    background: 'green'
+  };
 
   return (
     <div style={navStyles}>
       <div style={navLeft}>
-        <button>HOME</button>
-        <button>NOTIFICATIONS</button>
-        <button>MESSAGES</button>
+        <button style={navButton}>HOME</button>
+        <button style={navButton}>NOTIFICATIONS</button>
+        <button style={navButton}>MESSAGES</button>
       </div>
       <div style={navRight}>
         <input type="text" placeholder="SEARCH..."></input>

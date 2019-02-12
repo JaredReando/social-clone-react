@@ -1,5 +1,5 @@
-import React from "react";
-import Message from "./Message";
+import React from 'react';
+import Message from './Message';
 
 function MessageBox() {
   // const messageBoxStyle = {
@@ -10,16 +10,13 @@ function MessageBox() {
   // }
 
   const box = {
-  	backgroundColor: "#444",
-  	color: "#fff",
-  	borderRadius: "5px",
-  	padding: "20px",
-  	fontSize: "150%"
-  }
+    backgroundColor: '#444',
+    color: '#fff',
+    borderRadius: '5px',
+    padding: '20px',
+    fontSize: '150%'
+  };
 
-  const imgStyle = {
-    width: "40px"
-  }
 
   return (
     <div style={box}>
@@ -30,7 +27,7 @@ function MessageBox() {
       <Message></Message>
       <Message></Message>
     </div>
-  )
+  );
 
 
 

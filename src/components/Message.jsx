@@ -1,21 +1,21 @@
-import React from "react";
+import React from 'react';
 
 function Message() {
   const componentStyle = {
-      display: "grid",
-      gridTemplateColumns: "1fr 4fr",
-      gridAutoRows: "min-content",
-      margin: "0"
-  }
+    display: 'grid',
+    gridTemplateColumns: '1fr 4fr',
+    gridAutoRows: 'min-content',
+    margin: '0'
+  };
 
   const noMargins = {
-    marginBlockStart: "0 px",
-    marginBlockEnd: "0 px"
-  }
+    marginBlockStart: '0 px',
+    marginBlockEnd: '0 px'
+  };
 
   const tinyImage = {
-    width: "40px"
-  }
+    width: '40px'
+  };
 
   return (
     <div style={componentStyle}>
@@ -25,7 +25,7 @@ function Message() {
         <code style={noMargins}>message1</code>
       </div>
     </div>
-  )
+  );
 
 }
 
