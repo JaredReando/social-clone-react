@@ -1,12 +1,13 @@
 import React from "react";
-import TicketList from "./TicketList";
-import Header from "./Header";
+import NavBar from "./NavBar";
+import DashboardBody from "./DashboardBody";
 
 function App(){
+
   return (
     <div>
-      <Header/>
-      <TicketList/>
+      <NavBar/>
+      <DashboardBody/>
     </div>
   );
 }
